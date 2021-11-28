@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>ANAGRAM</title>
+</head>
+<body>
+       ​<h1>Anagram Program​</h1> 
+ ​    ​<script>
+ ​        ​function​ ​checkAnagram​(​a​,​ ​b​)​ ​{ 
+ ​   ​var​ ​len1​ ​=​ ​a​.​length​; 
+ ​   ​var​ ​len2​ ​=​ ​b​.​length​; 
+ ​   ​if​(​len1​ ​!==​ ​len2​)​{ 
+ ​      ​console​.​log​(​'Invalid Input'​)​; 
+ ​      ​return 
+ ​   ​} 
+ ​   ​var​ ​str1​ ​=​ ​a​.​split​(​''​)​.​sort​(​)​.​join​(​''​)​; 
+ ​   ​var​ ​str2​ ​=​ ​b​.​split​(​''​)​.​sort​(​)​.​join​(​''​)​; 
+ ​   ​if​(​str1​ ​===​ ​str2​)​{ 
+ ​      ​console​.​log​(​"True"​)​; 
+ ​   ​}​ ​else​ ​{​  
+ ​      ​console​.​log​(​"False"​)​; 
+ ​   ​} 
+ ​} 
+ ​checkAnagram​(​"ram"​,​"mar"​) 
+ ​checkAnagram​(​"ram"​,​"mer"​) 
+ ​    ​</script>
+    
+</body>
+</html>
